@@ -2,7 +2,7 @@
   hosts: local
   connection: local # Ansible id connecting to local host
   vars_files:
-    -course.yaml   
+      course.yaml   
   tasks:
   - name: print the course info
     # vars:

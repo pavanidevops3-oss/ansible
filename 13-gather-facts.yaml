@@ -3,6 +3,6 @@
   connection: local
   #ansible collects the info of target server, before it executes anu other fact
   tasks:
-    - name: facts
-      ansible.builtin.debug:
+  - name: facts
+    ansible.builtin.debug:
       msg: "{{ansible_facts}}"

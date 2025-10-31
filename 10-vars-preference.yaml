@@ -2,8 +2,8 @@
   hosts: local
   vars:
     TEST: this variable is from play
-  vars_files:
-  - course.yaml
+  # vars_files:
+  # - course.yaml
   vars_prompt:
   - name: TEST
     prompt: This variable is coming from prompt
@@ -15,4 +15,7 @@
     ansible.builtin.debug:
       msg: "Test: {{TEST}}"
 
+#prompt
+#task
+#files
 

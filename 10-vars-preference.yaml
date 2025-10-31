@@ -2,22 +2,24 @@
   hosts: local
   vars:
     TEST: this variable is from play
-  # vars_files:
-  # - course.yaml
-  # vars_prompt:
-  # - name: TEST
-  #   prompt: Enter the name of the variable
-  #   private: false  
+  vars_files:
+  - course.yaml
+  vars_prompt:
+  - name: TEST
+    prompt: Enter the name of the variable
+    private: false  
   tasks:
   - name: testing variables preference
-    # vars:
-    #   TEST: this variable is from task
+    vars:
+      TEST: this variable is from task
     ansible.builtin.debug:
       msg: "Test: {{TEST}}"
 
-#prompt
-#task
+#1. Args or commandline
+#from task 
 #files
+#prompt
 #play
+#inventory
 
 

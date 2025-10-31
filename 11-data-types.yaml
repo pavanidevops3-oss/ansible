@@ -20,6 +20,9 @@
 
 
 
+#  "msg": "Course name: DevOps with AWS, Duration: 120, is it live?: True, 
+#  Tools are: ['linux', 'shell', 'ansible'], 
+#  Concepts are: {'cloud': 'aws', 'cm': 'ansible', 'scripting': 'linux'}"
 
 
 
@@ -28,6 +31,3 @@
 
 
 
-
-#     martin: {name: Martin D'vloper, job: Developer, skill: Elite}
-# fruits: ['Apple', 'Orange', 'Strawberry', 'Mango']

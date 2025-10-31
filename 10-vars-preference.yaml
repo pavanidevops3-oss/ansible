@@ -5,10 +5,10 @@
     TEST: this variable is from play
   # vars_files:
   # - course.yaml
-  vars_prompt:
-  - name: TEST
-    prompt: Enter the name of the variable
-    private: false  
+  # vars_prompt:
+  # - name: TEST
+  #   prompt: Enter the name of the variable
+  #   private: false  
   tasks:
   - name: testing variables preference
     # vars:

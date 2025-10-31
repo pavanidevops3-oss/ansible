@@ -4,10 +4,10 @@
     TEST: this variable is from play
   # vars_files:
   # - course.yaml
-  vars_prompt:
-  - name: TEST
-    prompt: This variable is coming from prompt
-    private: false  
+  # vars_prompt:
+  # - name: TEST
+  #   prompt: This variable is coming from prompt
+  #   private: false  
   tasks:
   - name: testing variables preference
     # vars:

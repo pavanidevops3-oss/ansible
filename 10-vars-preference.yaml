@@ -10,8 +10,8 @@
     private: false  
   tasks:
   - name: testing variables preference
-    vars:
-      TEST: this variable is from task
+    # vars:
+    #   TEST: this variable is from task
     ansible.builtin.debug:
       msg: "Test: {{TEST}}"
 

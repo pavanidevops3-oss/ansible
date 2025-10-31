@@ -3,8 +3,8 @@
   connection: local
   vars:
     TEST: this variable is from play
-  vars_files:
-  - course.yaml
+  # vars_files:
+  # - course.yaml
   vars_prompt:
   - name: TEST
     prompt: Enter the name of the variable
@@ -17,10 +17,10 @@
       msg: "Test: {{TEST}}"
 
 #1. Args or commandline
-#from task 
-#files
-#prompt
-#play
-#inventory
+#2. from task 
+#3. files
+#4. prompt
+#5. play
+#6. inventory
 
 
